@@ -50,4 +50,5 @@ javarun(){
 export EDITOR=nvim
 export VISUAL=nvim
 
+# Set cyan colored bash prompt
 PS1="\e[0;36m[\u@\h \W]\$ \e[m "
