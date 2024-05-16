@@ -26,6 +26,13 @@ fi
 
 unset rc
 
+# expand the history size
+export HISTFILESIZE=10000
+export HISTSIZE=500
+
+# don't put duplicate lines in the history and do not add lines that start with a space
+export HISTCONTROL=erasedups:ignoredups:ignorespace
+
 # change directory /home/kavipriyanrk99/Drive/Kavipriyan1/
 alias home='cd /home/kavipriyanrk99/Drive/Kavipriyan1/'
 
@@ -40,6 +47,17 @@ alias downloads='cd /home/kavipriyanrk99/Drive/Kavipriyan1/Downloads/'
 
 # change directory /home/kavipriyanrk99/Drive/Kavipriyan1/Pictures/
 alias pictures='cd /home/kavipriyanrk99/Drive/Kavipriyan1/Pictures/'
+
+# editor
+alias vi='nvim'
+alias svi='sudo nvim'
+
+# change directory aliases
+alias ~='cd ~'
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias .....='cd ../../../..'
 
 # compiling and running java
 javarun(){
