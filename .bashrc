@@ -50,7 +50,7 @@ alias pictures='cd /home/kavipriyanrk99/Drive/Kavipriyan1/Pictures/'
 
 # editor
 alias vi='nvim'
-alias svi='sudo nvim'
+alias svi='sudo vi'
 
 # change directory aliases
 alias ~='cd ~'
